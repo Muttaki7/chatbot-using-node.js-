@@ -1,0 +1,15 @@
+{
+  "name": "node-telegraf-chatbot",
+  "version": "1.0.0",
+  "description": "A simple chatbot with Telegram and CLI support using Node.js + Telegraf.js",
+  "main": "telegram_cli_bot.js",
+  "scripts": {
+    "start": "node telegram_cli_bot.js",
+    "cli": "node telegram_cli_bot.js --cli"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "telegraf": "^4.12.2"
+  }
+}
